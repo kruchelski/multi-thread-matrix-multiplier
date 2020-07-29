@@ -23,7 +23,7 @@ In the root directory of this application, there are three directories: desafioC
 
 ### Measurements   
 To measure the results with precision the [Hyperfine application](https://github.com/sharkdp/hyperfine) was used.
-For each test, the size of the matrix was fixed and the numner of the threads was varying from 1 to 10. For each number of threads, the Hyperfine was configured to run 10 warmups and then 10 times measuring the amount of time spent in each run and calculating the standard deviation. The results were exported to .csv files that were after converted in the graphics that are in the .pdf report.   
+For each test, the size of the matrix was fixed and the numner of the threads was varying from 1 to 10. For each number of threads, the Hyperfine was configured to run 10 warmups and then 10 times measuring the amount of time spent in each run and calculating the standard deviation. The results were exported to .csv files that were after converted in the graphics that are in the .pdf report (in pt-BR).   
 
 ### Other stuff   
 Feel free to comment, edit the code and improve. Let's share knowledge.
